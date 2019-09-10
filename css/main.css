@@ -70,7 +70,8 @@ body {min-width: 320px;}
 /* main-banner */
 #contents #main-banner {position:relative; margin-bottom:0}
 #contents #main-banner .swiper-container {width:100%; height:100%; margin-left:auto; margin-right:auto; padding-bottom:40px;}
-#contents #main-banner .swiper-container .swiper-slide img {width:100%}
+#contents #main-banner .swiper-container .swiper-slide a {display:block;}
+#contents #main-banner .swiper-container .swiper-slide a img {width:100%}
 #contents #main-banner .swiper-container .swiper-slide .slide-txt {position:absolute;  right:5%; bottom:5%}
 #contents #main-banner .swiper-container .swiper-slide .slide-txt p.slide-txt1 {font-size:1.5625rem; font-weight:bold}
 #contents #main-banner .swiper-container .swiper-slide .slide-txt p.slide-txt2 {font-size:0.875rem;}

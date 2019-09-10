@@ -46,10 +46,86 @@
         <a href="#contents">컨텐츠영역 바로가기</a>
     </div>
     <!-- /스킵 네비게이션 -->
+
+    <!-- 카테고리 네비 메뉴 -->
+    <nav class="nav-menu" id="nav-menu">
+        <button class="close txt-hidden icon">닫기</button>
+        <div class="members">
+            <a href="#" class="login">로그인</a>
+            <a href="#" class="join">회원가입</a>
+        </div>
+        <!-- /members -->
+        <div class="category">
+            <ul>
+                <li>
+                    <!-- 하위메뉴 있는 경우 has-sub -->
+                    <a href="#" class="menu-depth1 has-sub">전체식물</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="#" class="menu-depth2">관엽식물</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth2">다육이/선인장</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth2">대형화분</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-depth1 has-sub">원예용품</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="#" class="menu-depth2">화분</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth2">흙</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth2">도구</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth2">화분</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth2">흙</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth2">도구</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-depth1">이벤트</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-depth1">인테리어</a>
+                </li>
+            </ul>
+            <div class="bottom-area">
+                <div class="etc-menu">
+                    <ul>
+                        <li class="notice"><a href="#">공지사항</a></li>
+                        <li class="cs-center">
+                            <a href="#">고객센터</a>
+                            <span>1588-1234</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /etc-menu -->
+                <span class="slogo">GREEN HOUSE</span>
+                <a href="#" class="setting txt-hidden icon">설정</a>
+            </div>
+            <!-- /bottom-area -->
+        </div>
+        <!-- /category -->
+    </nav>
+    <!-- /카테고리 네비 메뉴 -->
+
     <div class="wrapper">
         <header id="header">
             <div class="top-menu">
-                <a href="#" class="menu txt-hidden icon">메뉴보기</a>
+                <button class="menu txt-hidden icon">메뉴보기</button>
                 <h1><a href="index.html" class="txt-hidden">GREEN HOUSE</a></h1>
                 <div class="floatR">
                     <a href="#" class="search txt-hidden icon">검색</a>
@@ -68,69 +144,6 @@
                 </ul>
             </div>
             <!-- /gnb-menu -->
-            <div class="main-menu">
-                <a href="#" class="close txt-hidden icon">닫기</a>
-                <div class="members">
-                    <a href="#" class="login">로그인</a>
-                    <a href="#" class="join">회원가입</a>
-                </div>
-                <!-- /members -->
-                <div class="category">
-                    <ul>
-                        <li>
-                            <a href="#" class="menu-depth1 has-sub">전체식물</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#" class="menu-depth2">관엽식물</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="menu-depth2">다육이/선인장</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="menu-depth2">대형화분</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="menu-depth1 has-sub">원예용품</a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#" class="menu-depth2">화분</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="menu-depth2">흙</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="menu-depth2">도구</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" class="menu-depth1">이벤트</a>
-                        </li>
-                        <li>
-                            <a href="#" class="menu-depth1">인테리어</a>
-                        </li>
-                    </ul>
-                    <div class="bottom-area">
-                        <div class="etc-menu">
-                            <ul>
-                                <li class="notice"><a href="#">공지사항</a></li>
-                                <li class="cs-center">
-                                    <a href="#">고객센터</a>
-                                    <span>1588-1234</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /etc-menu -->
-                        <span class="slogo">GREEN HOUSE</span>
-                        <a href="#" class="setting txt-hidden icon">설정</a>
-                    </div>
-                    <!-- /bottom-area -->
-                </div>
-                <!-- /category -->
-            </div>
-            <!-- /main-menu -->
         </header>
         <div id="contents">
             <h2 class="hidden">본문 콘텐츠 영역</h2>
@@ -179,13 +192,14 @@
                 <h3>MD's PICK</h3>
                 <div class="product-list">
                     <div class="pick pick1">
-                        <h4><a href="#">#공기정화식물</a></h4>
+                        <h4><a href="javascript:;">#공기정화식물</a></h4>
                         <ul>
                             <li>
                                 <a href="#" class="product-img"><img src="images/pick_item1.jpg" alt="산세베리아 골든하니"></a>
                                 <div class="product-info">
                                     <a class="comment">영원한 스테디셀러~!</a>
                                     <a class="name">산세베리아 골든하니</a>
+                                    <!-- 할인시 discount -->
                                     <div class="price discount">
                                         <a href="#">
                                             <span class="percent">10%</span>
@@ -245,14 +259,14 @@
                     </div>
                     <!-- /pick1 -->
                     <div class="pick pick2">
-                        <h4><a href="#">#미세먼지제거</a></h4>
+                        <h4><a href="javascript:;">#미세먼지제거</a></h4>
                         <ul>
                             <li>
                                 <a href="#" class="product-img"><img src="images/pick_item3.jpg" alt="스킨답서스"></a>
                                 <div class="product-info">
                                     <a class="comment">공기정화 인기</a>
                                     <a class="name">스킨답서스</a>
-                                    <div class="price discount">
+                                    <div class="price">
                                         <a href="#">
                                             <span class="percent">0%</span>
                                             <span class="total">25,400</span>
@@ -267,7 +281,7 @@
                                 <div class="product-info">
                                     <a class="comment">공기정화 인기</a>
                                     <a class="name">스킨답서스</a>
-                                    <div class="price discount">
+                                    <div class="price">
                                         <a href="#">
                                             <span class="percent">0%</span>
                                             <span class="total">25,400</span>
@@ -282,7 +296,7 @@
                                 <div class="product-info">
                                     <a class="comment">공기정화 인기</a>
                                     <a class="name">스킨답서스</a>
-                                    <div class="price discount">
+                                    <div class="price">
                                         <a href="#">
                                             <span class="percent">0%</span>
                                             <span class="total">25,400</span>
@@ -297,7 +311,7 @@
                                 <div class="product-info">
                                     <a class="comment">공기정화 인기</a>
                                     <a class="name">스킨답서스</a>
-                                    <div class="price discount">
+                                    <div class="price">
                                         <a href="#">
                                             <span class="percent">0%</span>
                                             <span class="total">25,400</span>
@@ -312,7 +326,7 @@
                                 <div class="product-info">
                                     <a class="comment">공기정화 인기</a>
                                     <a class="name">스킨답서스</a>
-                                    <div class="price discount">
+                                    <div class="price">
                                         <a href="#">
                                             <span class="percent">0%</span>
                                             <span class="total">25,400</span>
@@ -326,7 +340,7 @@
                     </div>
                     <!-- /pick2 -->
                     <div class="pick pick3">
-                        <h4><a href="#">#다육이</a></h4>
+                        <h4><a href="javascript:;">#다육이</a></h4>
                         <ul>
                             <li>
                                 <a href="#" class="product-img"><img src="images/pick_item4.jpg" alt="유리전"></a>
@@ -685,25 +699,29 @@
             </div>
             <!-- /bottom-text -->
         </footer>
+
+        <!-- 하단 고정 메뉴 -->
         <div class="fix-menu" id="fix-menu">
             <ul>
                 <li class="fmenu1">
-                    <a href="#">메뉴</a>
+                    <a href="javascript:;">메뉴</a>
                 </li>
                 <li class="fmenu2">
-                    <a href="#">주문배송</a>
+                    <a href="javascript:;">주문배송</a>
                 </li>
                 <li class="fmenu3">
-                    <a href="#">홈</a>
+                    <a href="index.html">홈</a>
                 </li>
                 <li class="fmenu4">
-                    <a href="#">최근 본 상품</a>
+                    <a href="javascript:;">최근 본 상품</a>
                 </li>
                 <li class="fmenu5">
-                    <a href="#">마이페이지</a>
+                    <a href="javascript:;">마이페이지</a>
                 </li>
             </ul>
         </div>
+        <!-- /하단 고정 메뉴 -->
+
     </div>
     <!-- /wrapper --->
 
@@ -711,6 +729,8 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <!--<script src="js/modernizr-custom.js"></script>
     <script src="js/ie-checker.js"></script>-->
+    <script src="js/script.js"></script>
+
     <!-- Swiper JS -->
     <script src="js/swiper.min.js"></script>
 

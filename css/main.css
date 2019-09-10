@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/** skip nav **/
+#skip {position:relative}
+#skip a {position:absolute; width:130px; left:0; top:-40px; border:1px solid #fff; color:#fff; background:#333; line-height:30px; text-align:center}
+#skip a:active, 
+#skip a:focus {top: 0;}
+
+
+/** 전체 레이아웃 **/
+.wrapper {width:100%;}
+
+
+/** 공통 **/
+section {margin-bottom:40px}
+.icon, 
+#contents .icon,
+#header .main-menu .category ul li .menu-depth1.has-sub:after,
+#fix-menu ul li a:before {background:url(../images/icon/icon-set.png) no-repeat; background-size:35px 250px;}
+.floatR {float:right}
+.floatL {float:left}
+
+
+/** #header **/
+header {position:fixed; z-index:10; width:100%;}
+#header .top-menu {padding:20px; overflow:hidden;}
+#header .top-menu .menu {width:17px; height:14px; background-position:0 0; float:left; margin-right:20px}
+#header .top-menu h1 {float:left}
+#header .top-menu h1 a {width:118px; height:15px; background:url(../images/logo_320.png) no-repeat;}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    #header .top-menu h1 a {background:url(../images/logo_640.png) no-repeat; background-size:118px 15px;
+    }
+}
+#header .top-menu .search {float:left; margin-right:15px; width:16px; height:16px; background-position: 0 -14px; margin-top:2px;}
+#header .top-menu .cart {width:15px; height:19px; background-position: 0 -31px;}
+#header .gnb-menu {overflow-x: auto; -webkit-overflow-scrolling:touch;}
+#header .gnb-menu ul {white-space:nowrap}
+#header .gnb-menu ul li {display:inline-block}
+#header .gnb-menu ul li a {display:block; padding:10px 17px}
+
+/* main-menu */
+#header .main-menu {background:#fff; width:100%; position:absolute; top:0; left:0; z-index:200}
+#header .main-menu .close {width:17px; height:17px; background-position:0 -181px; position:absolute; right:20px; top:20px}
+#header .main-menu .members {padding:20px}
+#header .main-menu .members a {font-size:.937rem; font-weight:900}
+#header .main-menu .members a.login {color:#205f1a; margin-right:25px}
+#header .main-menu .category {padding:20px}
+#header .main-menu .category ul li .menu-depth1 {display:block; padding:0 0 20px; font-weight:bold; color:#000}
+#header .main-menu .category ul li .menu-depth1.has-sub {position:relative}
+#header .main-menu .category ul li .menu-depth1.has-sub:after {content:''; position:absolute; right:0; top:6px; width:14px; height:7px; background-position:0 -199px;}
+#header .main-menu .category ul li .menu-depth1.has-sub.on:after {background-position:0 -206px;}
+#header .main-menu .category ul li ul.sub-menu {padding:0 0 20px 7px}
+#header .main-menu .category ul li ul.sub-menu li {}
+#header .main-menu .category ul li ul.sub-menu li a {display:block; padding:10px 0; font-weight:bold;}
+#header .main-menu .bottom-area {padding:20px 0}
+#header .main-menu .bottom-area .etc-menu ul li.notice {margin-bottom:20px}
+#header .main-menu .bottom-area .etc-menu ul li a {font-size:.937rem; font-weight:900; color:#000}
+#header .main-menu .bottom-area .etc-menu ul li.cs-center a {margin-right:10px}
+#header .main-menu .bottom-area .etc-menu ul li.cs-center span {font-size:.937rem; font-weight:900}
+#header .main-menu .bottom-area .slogo {position:absolute; left:20px; bottom:20px; font-size:.625rem; font-weight:bold; letter-spacing:-1px}
+#header .main-menu .bottom-area .setting {position:absolute; right:20px; bottom:20px; width:18px; height:20px; background-position:0 -213px}
+
+/** contents **/
+/* main-banner */
+#contents #main-banner {position:relative; margin-bottom:0}
+#contents #main-banner .swiper-container {width:100%; height:100%; margin-left:auto; margin-right:auto; padding-bottom:40px;}
+#contents #main-banner .swiper-container .swiper-slide img {width:100%}
+#contents #main-banner .swiper-container .swiper-slide .slide-txt {position:absolute;  right:5%; bottom:5%}
+#contents #main-banner .swiper-container .swiper-slide .slide-txt p.slide-txt1 {font-size:1.5625rem; font-weight:bold}
+#contents #main-banner .swiper-container .swiper-slide .slide-txt p.slide-txt2 {font-size:0.875rem;}
+#contents #main-banner .swiper-container .swiper-pagination-bullets {bottom:20px}
+#contents #main-banner .swiper-container .swiper-pagination-bullet {border-radius:4px;}
+#contents #main-banner .swiper-container .swiper-pagination-bullet-active {width:20px; border-radius:4px; transition:width .5s; background:#2d4b1f}
+
+/* ad-banner */
+#contents .ad-banner img {width:100%}
+
+/* product */
+#contents .product-box.tab-menu {position:relative}
+#contents .product-box h3 {text-align:center; font-size:1.562rem; font-weight:900; color:#000; margin-bottom:15px;}
+#contents .product-box .product-list {overflow-x: auto; -webkit-overflow-scrolling:touch;}
+/*tab-menu*/
+#contents .product-box.tab-menu .product-list {padding-top:40px}
+#contents .product-box.tab-menu .product-list h4 {position:absolute; top:52px;}
+#contents .product-box.tab-menu .product-list h4 a {font-size:.875rem; padding:3px 7px; border:1px solid #666; border-radius:14px; display:inline-block; color:#666;}
+#contents .product-box.tab-menu .product-list h4.on a {border:1px solid #205f1a; color:#205f1a}
+#contents .product-box.tab-menu .product-list .pick1 h4 {left:17px;}
+#contents .product-box.tab-menu .product-list .pick2 h4 {left:117px;}
+#contents .product-box.tab-menu .product-list .pick3 h4 {left:217px;}
+/*/tab-menu*/
+#contents .product-box .product-list ul {white-space:nowrap; margin:0 17px;}
+#contents .product-box .product-list ul li {display:inline-block; width:130px; margin-right:5px;}
+#contents .product-box .product-list ul li:last-child {margin-right:17px}
+#contents .product-box .product-list ul li .product-img {display:block; margin-bottom:10px;}
+#contents .product-box .product-list ul li .product-img img {width:100%}
+#contents .product-box .product-list ul li .product-info .comment {font-size:.75rem; color:#333; font-weight:bold; display:block;}
+#contents .product-box .product-list ul li .product-info .name {font-size:.75rem; color:#000; font-weight:bold; display:block; margin-bottom:5px;}
+#contents .product-box .product-list ul li .product-info .price { color:#000;}
+#contents .product-box .product-list ul li .product-info .price.discount .percent {display:inline; font-weight:bold; margin-right:5px; color:#f52929}
+#contents .product-box .product-list ul li .product-info .price.discount .original {display:inline; text-decoration: line-through; font-size:.75rem; color:#666; margin-left:5px;}
+#contents .product-box .product-list ul li .product-info .price .original {display:none}
+#contents .product-box .product-list ul li .product-info .price .percent {display:none}
+
+/*interior*/
+#contents .interior {padding:20px; background-color:#e5deb9; text-align:center;}
+#contents .interior .slide-box {position:relative}
+#contents .interior .slide-box>span {color:#333; margin-bottom:0; font-size:.937rem; font-weight:600; line-height:1; display:block;}
+#contents .interior .slide-box h3 {font-size:1.562rem; font-weight:900; color:#333; margin-bottom:15px; line-height:1}
+#contents .interior .slide-box .swiper-container {position:unset}
+#contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide {position:relative}
+#contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide .slide-img-area img {width:100%}
+#contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide .slide-txt-area {position:absolute; bottom:0; display:block; background:#fff; padding:15px 0; width:100%;}
+#contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide a span {display:block;}
+#contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide a span.slide-title {font-size:.937rem; line-height:1; font-weight:bold}
+#contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide a span.slide-txt {font-size:.75rem}
+#contents .interior .slide-box .swiper-container .swiper-button-next {background-position:0 -166px; width:8px; height:14px; margin-top: -7px; right: -14px;}
+#contents .interior .slide-box .swiper-container .swiper-button-prev {background-position:0 -152px; width:8px; height:14px; margin-top: -7px; left: -14px;}
+
+
+/** footer **/
+#footer {padding-bottom:100px}
+#footer .bottom-menu {border-top:1px solid #ccc; padding:0 20px; overflow:hidden; text-align:center; margin-bottom:35px}
+#footer .bottom-menu ul li {float:left; width:33%}
+#footer .bottom-menu ul li:last-child {width:34%}
+#footer .bottom-menu ul li a {display: block; width:100%; padding:10% 0; font-weight:bold}
+#footer .sns {padding:0 40px; overflow:hidden; margin-bottom:26px}
+#footer .sns ul li {float:left; width:16%; margin-right:5%}
+#footer .sns ul li:last-child {margin-right:0}
+#footer .sns ul li a {display:block;}
+#footer .sns ul li a img {width:100%}
+#footer .bottom-text {padding:0 20px; overflow:hidden; text-align:center;}
+#footer .bottom-text p {letter-spacing: -1px; font-size:.75rem}
+#footer .bottom-text ul li {float:left; width:33%}
+#footer .bottom-text ul li:last-child {width:34%}
+#footer .bottom-text ul li a {display: block; width:100%; padding:10% 0; font-size:.75rem}
+
+
+/** fix-menu **/
+#fix-menu {width:100%; border-top:1px solid #eee; position:fixed; bottom:0; background:#fff; z-index:100}
+#fix-menu ul li {float:left; width:20%; padding:8px 0; text-align:center}
+#fix-menu ul li a {display:block; padding-top:23px; position:relative; font-size:.625rem}
+#fix-menu ul li a:before {position:absolute; top:0; left:50%}
+#fix-menu ul li.fmenu1 a:before {content:''; width:18px; height:16px; background-position:0 -50px; margin-left:-9px; margin-top:2.5px}
+#fix-menu ul li.fmenu2 a:before {content:''; width:25px; height:21px; background-position:0 -66px; margin-left:-12.5px}
+#fix-menu ul li.fmenu3 a:before {content:''; width:24px; height:21px; background-position:0 -88px; margin-left:-10px}
+#fix-menu ul li.fmenu4 a:before {content:''; width:21px; height:21px; background-position:0 -109px; margin-left:-10.5px}
+#fix-menu ul li.fmenu5 a:before {content:''; width:20px; height:21px; background-position:0 -130px; margin-left:-10px}
+
+
+
+
+
+
+

@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="hyunj">
+    <meta name="description" content="다양한 식물을 파는 식물전용 온라인몰입니다.">
+    <meta name="keywords" content="식물, 원예, 가드닝, 정원가꾸기, 원예용품, 화분">
+    <title>green house</title>
+
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- 페이스북 메타 태그 -->
+    <meta property="og:title" content="Green House" />
+    <meta property="og:url" content="https://hyunj37.github.io/greenhouse_mobile/" />
+    <meta property="og:image" content="https://hyunj37.github.io/images/website1.jpg" />
+    <meta property="og:description" content="greenhouse portfolio" />
+
+    <!-- 트위터 메타 태그 -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Green House">
+    <meta name="twitter:url" content="https://hyunj37.github.io/greenhouse_mobile/">
+    <meta name="twitter:image" content="https://hyunj37.github.io/images/website1.jpg">
+    <meta name="twitter:description" content="greenhouse portfolio">
+
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(scrollTo, 0, 0, 1);
+        }, false);
+    </script>
+</head>
+
+<body>
+    <!-- 스킵 네비게이션 -->
+    <div id="skip">
+        <a href="#">전체 메뉴 바로가기</a>
+        <a href="#main-banner">배너영역 바로가기</a>
+        <a href="#contents">컨텐츠영역 바로가기</a>
+    </div>
+    <!-- /스킵 네비게이션 -->
+    <div class="wrapper">
+        <header id="header">
+            <div class="top-menu">
+                <a href="#" class="menu txt-hidden icon">메뉴보기</a>
+                <h1><a href="index.html" class="txt-hidden">GREEN HOUSE</a></h1>
+                <div class="floatR">
+                    <a href="#" class="search txt-hidden icon">검색</a>
+                    <a href="#" class="cart txt-hidden icon">장바구니</a>
+                </div>
+            </div>
+            <!-- /top-menu -->
+            <div class="gnb-menu clearfix">
+                <ul>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">베스트</a></li>
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">인테리어</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <!-- /gnb-menu -->
+            <div class="main-menu">
+                <a href="#" class="close txt-hidden icon">닫기</a>
+                <div class="members">
+                    <a href="#" class="login">로그인</a>
+                    <a href="#" class="join">회원가입</a>
+                </div>
+                <!-- /members -->
+                <div class="category">
+                    <ul>
+                        <li>
+                            <a href="#" class="menu-depth1 has-sub">전체식물</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" class="menu-depth2">관엽식물</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-depth2">다육이/선인장</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-depth2">대형화분</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth1 has-sub">원예용품</a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" class="menu-depth2">화분</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-depth2">흙</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="menu-depth2">도구</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth1">이벤트</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu-depth1">인테리어</a>
+                        </li>
+                    </ul>
+                    <div class="bottom-area">
+                        <div class="etc-menu">
+                            <ul>
+                                <li class="notice"><a href="#">공지사항</a></li>
+                                <li class="cs-center">
+                                    <a href="#">고객센터</a>
+                                    <span>1588-1234</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /etc-menu -->
+                        <span class="slogo">GREEN HOUSE</span>
+                        <a href="#" class="setting txt-hidden icon">설정</a>
+                    </div>
+                    <!-- /bottom-area -->
+                </div>
+                <!-- /category -->
+            </div>
+            <!-- /main-menu -->
+        </header>
+        <div id="contents">
+            <h2 class="hidden">본문 콘텐츠 영역</h2>
+            <section class="main-banner" id="main-banner">
+                <!-- Swiper -->
+                <div class="swiper-container swiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/banner1.jpg" alt="수요일 할인">
+                            <div class="slide-txt">
+                                <p class="slide-txt1">수요일은<br>10% 할인Day</p>
+                                <p class="slide-txt2">매주 달라지는 할인상품</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/banner2.jpg" alt="틸란드시아">
+                            <div class="slide-txt">
+                                <p class="slide-txt1">이달의 추천 식물<br>이오난사 틸란드시아</p>
+                                <p class="slide-txt2">미세먼지 먹는 식물로 요즘 각광받고있어요~</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/banner3.jpg" alt="행잉플랜트">
+                            <div class="slide-txt">
+                                <p class="slide-txt1">집안 분위기 메이커<br>행잉플랜트</p>
+                                <p class="slide-txt2">오직 그린하우스에만 있는 수입식물을 만나보세요</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <!--
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    -->
+                </div>
+                <!-- /swiper-container -->
+            </section>
+            <!-- /main-benner -->
+            <section class="ad-banner1 ad-banner">
+                <a href="#"><img src="images/event-banner1.jpg" alt="회원가입시 3000포인트 증정"></a>
+            </section>
+            <!-- /ad-banner1 -->
+            <section class="md-pick product-box tab-menu">
+                <h3>MD's PICK</h3>
+                <div class="product-list">
+                    <div class="pick pick1">
+                        <h4><a href="#">#공기정화식물</a></h4>
+                        <ul>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item1.jpg" alt="산세베리아 골든하니"></a>
+                                <div class="product-info">
+                                    <a class="comment">영원한 스테디셀러~!</a>
+                                    <a class="name">산세베리아 골든하니</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">24,300</span>
+                                            <span>원</span>
+                                            <span class="original">27,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item2.jpg" alt="산세베리아 하니타이거"></a>
+                                <div class="product-info">
+                                    <a class="comment">무니가 매력적인</a>
+                                    <a class="name">산세베리아 하니타이거</a>
+                                    <div class="price">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">23,000</span>
+                                            <span>원</span>
+                                            <span class="original">23,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item1.jpg" alt="산세베리아 골든하니"></a>
+                                <div class="product-info">
+                                    <a class="comment">영원한 스테디셀러~!</a>
+                                    <a class="name">산세베리아 골든하니</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">24,300</span>
+                                            <span>원</span>
+                                            <span class="original">27,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item2.jpg" alt="산세베리아 하니타이거"></a>
+                                <div class="product-info">
+                                    <a class="comment">무니가 매력적인</a>
+                                    <a class="name">산세베리아 하니타이거</a>
+                                    <div class="price">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">23,000</span>
+                                            <span>원</span>
+                                            <span class="original">23,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /pick1 -->
+                    <div class="pick pick2">
+                        <h4><a href="#">#미세먼지제거</a></h4>
+                        <ul>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item3.jpg" alt="스킨답서스"></a>
+                                <div class="product-info">
+                                    <a class="comment">공기정화 인기</a>
+                                    <a class="name">스킨답서스</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">0%</span>
+                                            <span class="total">25,400</span>
+                                            <span>원</span>
+                                            <span class="original">25,400</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item3.jpg" alt="스킨답서스"></a>
+                                <div class="product-info">
+                                    <a class="comment">공기정화 인기</a>
+                                    <a class="name">스킨답서스</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">0%</span>
+                                            <span class="total">25,400</span>
+                                            <span>원</span>
+                                            <span class="original">25,400</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item3.jpg" alt="스킨답서스"></a>
+                                <div class="product-info">
+                                    <a class="comment">공기정화 인기</a>
+                                    <a class="name">스킨답서스</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">0%</span>
+                                            <span class="total">25,400</span>
+                                            <span>원</span>
+                                            <span class="original">25,400</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item3.jpg" alt="스킨답서스"></a>
+                                <div class="product-info">
+                                    <a class="comment">공기정화 인기</a>
+                                    <a class="name">스킨답서스</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">0%</span>
+                                            <span class="total">25,400</span>
+                                            <span>원</span>
+                                            <span class="original">25,400</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item3.jpg" alt="스킨답서스"></a>
+                                <div class="product-info">
+                                    <a class="comment">공기정화 인기</a>
+                                    <a class="name">스킨답서스</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">0%</span>
+                                            <span class="total">25,400</span>
+                                            <span>원</span>
+                                            <span class="original">25,400</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /pick2 -->
+                    <div class="pick pick3">
+                        <h4><a href="#">#다육이</a></h4>
+                        <ul>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item4.jpg" alt="유리전"></a>
+                                <div class="product-info">
+                                    <a class="comment">어디서나 키우기 쉬운</a>
+                                    <a class="name">유리전</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">11,700</span>
+                                            <span>원</span>
+                                            <span class="original">13,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item4.jpg" alt="유리전"></a>
+                                <div class="product-info">
+                                    <a class="comment">어디서나 키우기 쉬운</a>
+                                    <a class="name">유리전</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">11,700</span>
+                                            <span>원</span>
+                                            <span class="original">13,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item4.jpg" alt="유리전"></a>
+                                <div class="product-info">
+                                    <a class="comment">어디서나 키우기 쉬운</a>
+                                    <a class="name">유리전</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">11,700</span>
+                                            <span>원</span>
+                                            <span class="original">13,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item4.jpg" alt="유리전"></a>
+                                <div class="product-info">
+                                    <a class="comment">어디서나 키우기 쉬운</a>
+                                    <a class="name">유리전</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">11,700</span>
+                                            <span>원</span>
+                                            <span class="original">13,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="product-img"><img src="images/pick_item4.jpg" alt="유리전"></a>
+                                <div class="product-info">
+                                    <a class="comment">어디서나 키우기 쉬운</a>
+                                    <a class="name">유리전</a>
+                                    <div class="price discount">
+                                        <a href="#">
+                                            <span class="percent">10%</span>
+                                            <span class="total">11,700</span>
+                                            <span>원</span>
+                                            <span class="original">13,000</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /pick -->
+                </div>
+                <!-- /product-list -->
+            </section>
+            <!-- /md-pick -->
+            <section class="best-item product-box">
+                <h3>BEST ITEM</h3>
+                <div class="product-list">
+                    <ul>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/best_item1.jpg" alt="몬스테라"></a>
+                            <div class="product-info">
+                                <a class="name">몬스테라</a>
+                                <div class="price discount">
+                                    <a href="#">
+                                        <span class="percent">10%</span>
+                                        <span class="total">34,700</span>
+                                        <span>원</span>
+                                        <span class="original">38,600</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/best_item2.jpg" alt="적오모자 선인장"></a>
+                            <div class="product-info">
+                                <a class="name">적오모자 선인장</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">32,600</span>
+                                        <span>원</span>
+                                        <span class="original">32,600</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/best_item3.jpg" alt="용신목 선인장"></a>
+                            <div class="product-info">
+                                <a class="name">용신목 선인장</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">24,800</span>
+                                        <span>원</span>
+                                        <span class="original">24,800</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/best_item4.jpg" alt="구아바"></a>
+                            <div class="product-info">
+                                <a class="name">구아바</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">13,500</span>
+                                        <span>원</span>
+                                        <span class="original">13,500</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/best_item5.jpg" alt="아이비"></a>
+                            <div class="product-info">
+                                <a class="name">아이비</a>
+                                <div class="price discount">
+                                    <a href="#">
+                                        <span class="percent">10%</span>
+                                        <span class="total">8,800</span>
+                                        <span>원</span>
+                                        <span class="original">9,800</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /product-list -->
+            </section>
+            <!-- /best-item -->
+            <section class="ad-banner2 ad-banner">
+                <a href="#"><img src="images/event-banner2.jpg" alt="원예용품 보러가기"></a>
+            </section>
+            <!-- /ad-banner2 -->
+            <section class="new-item product-box">
+                <h3>NEW ITEM</h3>
+                <div class="product-list">
+                    <ul>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/new_item1.jpg" alt="아가베"></a>
+                            <div class="product-info">
+                                <a class="name">아가베</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">98,000</span>
+                                        <span>원</span>
+                                        <span class="original">98,000</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/new_item2.jpg" alt="칼라데아 오르비폴리아"></a>
+                            <div class="product-info">
+                                <a class="name">칼라데아 오르비폴리아</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">36,000</span>
+                                        <span>원</span>
+                                        <span class="original">36,000</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/new_item3.jpg" alt="트리안"></a>
+                            <div class="product-info">
+                                <a class="name">트리안</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">21,000</span>
+                                        <span>원</span>
+                                        <span class="original">21,000</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/new_item4.jpg" alt="스파티필름"></a>
+                            <div class="product-info">
+                                <a class="name">스파티필름</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">16,500</span>
+                                        <span>원</span>
+                                        <span class="original">16,500</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/new_item5.jpg" alt="라디아타 유칼립투스"></a>
+                            <div class="product-info">
+                                <a class="name">라디아타 유칼립투스</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">28,400</span>
+                                        <span>원</span>
+                                        <span class="original">28,400</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/new_item6.jpg" alt="엑사쿰"></a>
+                            <div class="product-info">
+                                <a class="name">엑사쿰</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">25,000</span>
+                                        <span>원</span>
+                                        <span class="original">25,000</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="product-img"><img src="images/new_item7.jpg" alt="동백나무"></a>
+                            <div class="product-info">
+                                <a class="name">동백나무</a>
+                                <div class="price">
+                                    <a href="#">
+                                        <span class="percent">0%</span>
+                                        <span class="total">58,000</span>
+                                        <span>원</span>
+                                        <span class="original">58,000</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /product-list -->
+            </section>
+            <!-- /new-item -->
+            <section class="interior">
+                <div class="slide-box">
+                    <span>GREEN HOUSE</span>
+                    <h3>INTERIOR</h3>
+                    <div class="swiper-container swiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="slide-img-area">
+                                    <img src="images/interior_style1.jpg" alt="인테리어 스타일1">
+                                </a>
+                                <a href="#" class="slide-txt-area">
+                                    <span class="slide-title">Fresh Plants</span>
+                                    <span class="slide-txt">싱그러운 자연 속 인테리어</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="slide-img-area">
+                                    <img src="images/interior_style2.jpg" alt="인테리어 스타일2">
+                                </a>
+                                <a href="#" class="slide-txt-area">
+                                    <span class="slide-title">Modern Plants</span>
+                                    <span class="slide-txt">자연과 함께
+                                    어울리는 인테리어</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="slide-img-area">
+                                    <img src="images/interior_style3.jpg" alt="인테리어 스타일3">
+                                </a>
+                                <a href="#" class="slide-txt-area">
+                                    <span class="slide-title">Warm Plants</span>
+                                    <span class="slide-txt">따뜻한
+                                    침실 인테리어</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="slide-img-area">
+                                    <img src="images/interior_style4.jpg" alt="인테리어 스타일4">
+                                </a>
+                                <a href="#" class="slide-txt-area">
+                                    <span class="slide-title">Deco Plants</span>
+                                    <span class="slide-txt">어디에나 잘 어울리는 미니식물 인테리어</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next icon"></div>
+                        <div class="swiper-button-prev icon"></div>
+                    </div>
+                    <!-- /swiper-container -->
+                </div>
+                <!-- /slide-box -->
+            </section>
+            <!-- /interior -->
+        </div>
+        <!-- /contents -->
+        <footer id="footer">
+            <div class="bottom-menu">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">공지사항</a></li>
+                </ul>
+            </div>
+            <!-- /bottom-menu -->
+            <div class="sns">
+                <ul>
+                    <li><a href="#"><img src="images/sns_btn1.jpg" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="images/sns_btn2.jpg" alt="트위터"></a></li>
+                    <li><a href="#"><img src="images/sns_btn3.jpg" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="images/sns_btn4.jpg" alt="링크드인"></a></li>
+                    <li><a href="#"><img src="images/sns_btn5.jpg" alt="유튜브"></a></li>
+                </ul>
+            </div>
+            <!-- /sns -->
+            <div class="bottom-text">
+                <p>COPYRIGHT © GREENHOUSE ALL RIGHTS RESERVED.</p>
+                <ul>
+                    <li><a href="#">사이트이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">사업자정보확인</a></li>
+                </ul>
+            </div>
+            <!-- /bottom-text -->
+        </footer>
+        <div class="fix-menu" id="fix-menu">
+            <ul>
+                <li class="fmenu1">
+                    <a href="#">메뉴</a>
+                </li>
+                <li class="fmenu2">
+                    <a href="#">주문배송</a>
+                </li>
+                <li class="fmenu3">
+                    <a href="#">홈</a>
+                </li>
+                <li class="fmenu4">
+                    <a href="#">최근 본 상품</a>
+                </li>
+                <li class="fmenu5">
+                    <a href="#">마이페이지</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /wrapper --->
+
+    <!-- 자바스크립트 라이브러리 -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!--<script src="js/modernizr-custom.js"></script>
+    <script src="js/ie-checker.js"></script>-->
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper1', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        
+        
+         var swiper = new Swiper('.swiper2', {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>

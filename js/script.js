@@ -1,19 +1,22 @@
 /** 네비게이션 메뉴 **/
 /*오픈*/
-$('.menu, .fmenu1').click(function(){
+$('.menu, .fmenu1').click(function(e){
+    e.preventDefault();
     $('#nav-menu').show();
     $('.wrapper').animate({'left':'100%'}, function(){
         $('html').addClass('nav-open');
     });
 });
-$('.close').click(function(){
+$('.close').click(function(e){
+    e.preventDefault();
     $('html').removeClass('nav-open');
     $('.wrapper').animate({'left':0}, function(){
         $('#nav-menu').hide();
     });
 });
 /*아코디언*/
-$('.has-sub').click(function(){
+$('.has-sub').click(function(e){
+    e.preventDefault();
     if($(this).hasClass('on')){
         $(this).removeClass('on');
         $(this).siblings('.sub-menu').slideUp();

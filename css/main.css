@@ -24,7 +24,7 @@ overflow:hidden;}
 #nav-menu .close {width:17px; height:17px; background-position:0 -181px; position:absolute; right:20px; top:20px}
 #nav-menu .members {padding:20px}
 #nav-menu .members a {font-size:.937rem; font-weight:900}
-#nav-menu .members a.login {color:#205f1a; margin-right:25px}
+#nav-menu .members a.login {color:#193e27; margin-right:25px}
 #nav-menu .category {padding:20px}
 #nav-menu .category ul li .menu-depth1 {display:block; padding:0 0 20px; font-weight:bold; color:#000}
 #nav-menu .category ul li .menu-depth1.has-sub {position:relative}
@@ -77,7 +77,7 @@ body {min-width: 320px;}
 #contents #main-banner .swiper-container .swiper-slide .slide-txt p.slide-txt2 {font-size:0.875rem;}
 #contents #main-banner .swiper-container .swiper-pagination-bullets {bottom:20px}
 #contents #main-banner .swiper-container .swiper-pagination-bullet {border-radius:4px;}
-#contents #main-banner .swiper-container .swiper-pagination-bullet-active {width:20px; border-radius:4px; transition:width .5s; background:#2d4b1f}
+#contents #main-banner .swiper-container .swiper-pagination-bullet-active {width:20px; border-radius:4px; transition:width .5s; background:#193e27}
 
 /* ad-banner */
 #contents .ad-banner img {width:100%}
@@ -90,7 +90,7 @@ body {min-width: 320px;}
 #contents .product-box.tab-menu .product-list {padding-top:40px}
 #contents .product-box.tab-menu .product-list h4 {position:absolute; top:52px;}
 #contents .product-box.tab-menu .product-list h4 a {font-size:.875rem; padding:3px 7px; border:1px solid #666; border-radius:14px; display:inline-block; color:#666;}
-#contents .product-box.tab-menu .product-list h4.on a {border:1px solid #205f1a; color:#205f1a}
+#contents .product-box.tab-menu .product-list h4.on a {border:1px solid #193e27; color:#193e27}
 #contents .product-box.tab-menu .product-list .pick1 h4 {left:17px}
 #contents .product-box.tab-menu .product-list .pick2 h4 {left:117px}
 #contents .product-box.tab-menu .product-list .pick3 h4 {left:217px}

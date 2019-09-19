@@ -63,7 +63,7 @@ body {min-width: 320px;}
 #header .gnb-menu {overflow-x: auto; -webkit-overflow-scrolling:touch;}
 #header .gnb-menu ul {white-space:nowrap}
 #header .gnb-menu ul li {display:inline-block}
-#header .gnb-menu ul li a {display:block; padding:10px 17px}
+#header .gnb-menu ul li a {display:block; padding:10px 13px}
 
 
 /** contents **/

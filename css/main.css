@@ -103,7 +103,7 @@ body {min-width: 320px;}
 #contents .product-box .product-list ul li .product-img img {width:100%}
 #contents .product-box .product-list ul li .product-info .comment {font-size:.75rem; color:#333; font-weight:bold; display:block;}
 #contents .product-box .product-list ul li .product-info .name {font-size:.75rem; color:#000; font-weight:bold; display:block; margin-bottom:5px;}
-#contents .product-box .product-list ul li .product-info .price { color:#000}
+#contents .product-box .product-list ul li .product-info .price {color:#000; letter-spacing: -0.05rem}
 #contents .product-box .product-list ul li .product-info .price.discount .percent {display:inline; font-weight:bold; margin-right:5px; color:#f52929}
 #contents .product-box .product-list ul li .product-info .price.discount .original {display:inline; text-decoration: line-through; font-size:.75rem; color:#666; margin-left:5px;}
 #contents .product-box .product-list ul li .product-info .price .original {display:none}

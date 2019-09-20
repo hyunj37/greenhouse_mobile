@@ -63,7 +63,7 @@ body {min-width: 320px;}
 #header .gnb-menu {overflow-x: auto; -webkit-overflow-scrolling:touch;}
 #header .gnb-menu ul {white-space:nowrap}
 #header .gnb-menu ul li {display:inline-block}
-#header .gnb-menu ul li a {display:block; padding:10px 14px}
+#header .gnb-menu ul li a {display:block; padding:10px 16px}
 
 
 /** contents **/
@@ -85,18 +85,18 @@ body {min-width: 320px;}
 /* product */
 #contents .product-box.tab-menu {position:relative}
 #contents .product-box h3 {text-align:center; font-size:1.562rem; font-weight:900; color:#000; margin-bottom:15px}
-#contents .product-box .product-list {overflow-x: auto; -webkit-overflow-scrolling:touch}
+#contents .product-box .product-list {}
 /*tab-menu*/
 #contents .product-box.tab-menu .product-list {padding-top:40px}
 #contents .product-box.tab-menu .product-list h4 {position:absolute; top:52px;}
 #contents .product-box.tab-menu .product-list h4 a {font-size:.875rem; padding:3px 7px; border:1px solid #666; border-radius:14px; display:inline-block; color:#666;}
 #contents .product-box.tab-menu .product-list h4.on a {border:1px solid #193e27; color:#193e27}
 #contents .product-box.tab-menu .product-list .pick1 h4 {left:17px}
-#contents .product-box.tab-menu .product-list .pick2 h4 {left:117px}
-#contents .product-box.tab-menu .product-list .pick3 h4 {left:217px}
+#contents .product-box.tab-menu .product-list .pick2 h4 {left:135px}
+#contents .product-box.tab-menu .product-list .pick3 h4 {left:253px}
 #contents .product-box.tab-menu .product-list ul {display:none}
 /*/tab-menu*/
-#contents .product-box .product-list ul {white-space:nowrap; margin:0 17px}
+#contents .product-box .product-list ul {overflow-x:auto; -webkit-overflow-scrolling:touch; white-space:nowrap; margin:0 17px}
 #contents .product-box .product-list ul li {display:inline-block; width:130px; margin-right:5px}
 #contents .product-box .product-list ul li:last-child {margin-right:17px}
 #contents .product-box .product-list ul li .product-img {display:block; margin-bottom:10px}

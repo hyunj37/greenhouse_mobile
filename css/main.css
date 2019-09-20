@@ -60,7 +60,7 @@ body {min-width: 320px;}
 }
 #header .top-menu .search {float:left; margin-right:15px; width:16px; height:16px; background-position: 0 -14px; margin-top:2px;}
 #header .top-menu .cart {width:15px; height:19px; background-position: 0 -31px;}
-#header .gnb-menu {overflow-x: auto; -webkit-overflow-scrolling:touch;}
+#header .gnb-menu {overflow-x:auto; -webkit-overflow-scrolling:touch}
 #header .gnb-menu ul {white-space:nowrap}
 #header .gnb-menu ul li {display:inline-block}
 #header .gnb-menu ul li a {display:block; padding:10px 16px}
@@ -92,8 +92,8 @@ body {min-width: 320px;}
 #contents .product-box.tab-menu .product-list h4 a {font-size:.875rem; padding:3px 7px; border:1px solid #666; border-radius:14px; display:inline-block; color:#666;}
 #contents .product-box.tab-menu .product-list h4.on a {border:1px solid #193e27; color:#193e27}
 #contents .product-box.tab-menu .product-list .pick1 h4 {left:17px}
-#contents .product-box.tab-menu .product-list .pick2 h4 {left:135px}
-#contents .product-box.tab-menu .product-list .pick3 h4 {left:253px}
+#contents .product-box.tab-menu .product-list .pick2 h4 {left:125px}
+#contents .product-box.tab-menu .product-list .pick3 h4 {left:233px}
 #contents .product-box.tab-menu .product-list ul {display:none}
 /*/tab-menu*/
 #contents .product-box .product-list ul {overflow-x:auto; -webkit-overflow-scrolling:touch; white-space:nowrap; margin:0 17px}

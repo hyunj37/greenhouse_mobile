@@ -114,7 +114,7 @@ body {min-width: 320px;}
 #contents .interior .slide-box {position:relative}
 #contents .interior .slide-box>span {color:#333; margin-bottom:0; font-size:.937rem; font-weight:600; line-height:1; display:block;}
 #contents .interior .slide-box h3 {font-size:1.562rem; font-weight:900; color:#333; margin-bottom:15px; line-height:1}
-#contents .interior .slide-box .swiper-container {position:unset}
+#contents .interior .slide-box .swiper-container {position:static}
 #contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide {position:relative}
 #contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide .slide-img-area img {width:100%}
 #contents .interior .slide-box .swiper-container .swiper-wrapper .swiper-slide .slide-txt-area {position:absolute; bottom:0; display:block; background:#fff; padding:15px 0; width:100%;}

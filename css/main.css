@@ -96,8 +96,8 @@ body {min-width: 320px;}
 #contents .product-box.tab-menu .product-list .pick3 h4 {left:233px}
 #contents .product-box.tab-menu .product-list ul {display:none}
 /*/tab-menu*/
-#contents .product-box .product-list {-ms-overflow-style: none;}
-#contents .product-box .product-list::-webkit-scrollbar {display:none;}
+#contents .product-box .product-list ul {-ms-overflow-style: none;}
+#contents .product-box .product-list ul::-webkit-scrollbar {display:none;}
 #contents .product-box .product-list ul {overflow-x:auto; -webkit-overflow-scrolling:touch; white-space:nowrap; margin:0 17px}
 #contents .product-box .product-list ul li {display:inline-block; width:130px; margin-right:5px}
 #contents .product-box .product-list ul li:last-child {margin-right:17px}
